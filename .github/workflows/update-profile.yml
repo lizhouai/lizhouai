@@ -1,0 +1,48 @@
+name: Update profile activity
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC 00:17 = 北京时间 08:17；GitHub 定时执行可能延迟。
+    - cron: '17 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - profile.md
+      - .github/scripts/update-profile.mjs
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh public activity
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          PROFILE_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-profile.mjs
+      - name: Save changed profile
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo 'Profile is already up to date.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'docs: refresh public activity'
+          git push
