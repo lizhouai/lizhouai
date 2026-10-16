@@ -26,6 +26,9 @@
 
 ## 交流 Contact
 
+- Email：[chocolatezhouli@gmail.com](mailto:chocolatezhouli@gmail.com)
+- X（Twitter）：[@leechouuu](https://x.com/leechouuu)
+
 欢迎在对应项目的 Issues 中交流想法、反馈问题。
 
 [查看全部仓库 →](https://github.com/lizhouai?tab=repositories)

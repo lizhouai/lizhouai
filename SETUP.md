@@ -47,4 +47,4 @@ WakaTime 最新文档要求读取统计使用 OAuth 授权，或使用用户主�
 
 布局参考 [Twisuki 的个人主页](https://github.com/Twisuki/Twisuki)，其近期编码统计的源码位于 [profile.md](https://github.com/Twisuki/Twisuki/blob/main/profile.md)，使用 [custom_waka_readme](https://github.com/Twisuki/custom_waka_readme) 自动生成 README。
 
-本主页的项目文案依据 lizhouai 公开仓库说明整理；未填写工作单位、学历或私人联系方式，也未填入模拟编码数据。作品列表手动维护，近期动态自动更新。
+本主页的项目文案依据 lizhouai 公开仓库说明整理；工作单位和学历未作推测，联系方式按本人提供的信息填写，未填入模拟编码数据。作品列表手动维护，近期动态自动更新。
