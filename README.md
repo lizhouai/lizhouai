@@ -26,7 +26,6 @@
 | 2026-10-22 | 更新了 [justlonely/dsh-provider-usage](https://github.com/justlonely/dsh-provider-usage) |
 | 2026-10-21 | 更新了 [lizhouai/dsh-provider-usage](https://github.com/lizhouai/dsh-provider-usage) |
 | 2026-10-18 | 更新了 [lizhouai/dsh-provider-usage](https://github.com/lizhouai/dsh-provider-usage) |
-| 2026-09-29 | 更新了 [lizhouai/dsh-provider-usage](https://github.com/lizhouai/dsh-provider-usage) |
 <!--RECENT_ACTIVITY:END-->
 
 <sub>公开活动自动更新 · 日期按北京时间显示</sub>
