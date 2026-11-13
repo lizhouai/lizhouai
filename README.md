@@ -23,6 +23,7 @@
 <!--RECENT_ACTIVITY:START-->
 | 日期 | 公开动态 |
 | --- | --- |
+| 2026-11-11 | 更新了 [lizhouai/multi-agent-practice](https://github.com/lizhouai/multi-agent-practice) |
 | 2026-10-22 | 更新了 [justlonely/dsh-provider-usage](https://github.com/justlonely/dsh-provider-usage) |
 | 2026-10-21 | 更新了 [lizhouai/dsh-provider-usage](https://github.com/lizhouai/dsh-provider-usage) |
 | 2026-10-18 | 更新了 [lizhouai/dsh-provider-usage](https://github.com/lizhouai/dsh-provider-usage) |
