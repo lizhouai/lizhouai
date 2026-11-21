@@ -27,7 +27,6 @@
 | 2026-11-15 | 更新了 [lizhouai/LeagueAkari](https://github.com/lizhouai/LeagueAkari) |
 | 2026-11-11 | 更新了 [lizhouai/multi-agent-practice](https://github.com/lizhouai/multi-agent-practice) |
 | 2026-10-22 | 更新了 [justlonely/dsh-provider-usage](https://github.com/justlonely/dsh-provider-usage) |
-| 2026-10-21 | 更新了 [lizhouai/dsh-provider-usage](https://github.com/lizhouai/dsh-provider-usage) |
 <!--RECENT_ACTIVITY:END-->
 
 <sub>公开活动自动更新 · 日期按北京时间显示</sub>
